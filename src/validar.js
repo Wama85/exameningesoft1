@@ -21,6 +21,10 @@ function validartexto(palabra) {
   {
     return 1
   }
+  if(palabra === 'es')
+  {
+    return 2
+  }
 }
 
 export default validartexto;

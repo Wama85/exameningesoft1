@@ -21,6 +21,10 @@ describe("DETECTAR CANTIDAD DE FRASES EN UNA ORACION", () => {
     const texto='cuenta';
     expect(validartexto(texto)).toEqual(1);
   });
+  it("DEBERIA MOSTRAR quinta palabra", () => {
+    const texto='es';
+    expect(validartexto(texto)).toEqual(2);
+  });
 
   
 
