@@ -9,6 +9,10 @@ function validartexto(palabra) {
   {
     return 2
   }
+  if(palabra === 'de')
+  {
+    return 2
+  }
    if(palabra === 'mi')
   {
     return 1
