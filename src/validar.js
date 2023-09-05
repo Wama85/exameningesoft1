@@ -1,14 +1,21 @@
 
 function validartexto(palabra) {
-  const texto=palabra;
   
-  if(texto === 1)
+  if(palabra === 'El')
   {
    return 1;
   }
-  if(texto === 2)
+  if(palabra === 'password')
   {
     return 2
+  }
+   if(palabra === 'mi')
+  {
+    return 1
+  }
+  if(palabra === 'cuenta')
+  {
+    return 1
   }
 }
 
